@@ -11,7 +11,7 @@ public class Novo extends Imovel{
 	}
 	@Override
 	public Double consultar() {
-		return this.getPreco();
+		return getPreco() + (getPreco()*0.5);
 	}
 	//toString
 	public String toString() {

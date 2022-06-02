@@ -11,7 +11,7 @@ public class Velho extends Imovel{
 	}
 	@Override
 	public Double consultar() {
-		return this.getPreco()-this.getPreco()*0.5;
+		return getPreco() - (getPreco()*0.5);
 	}
 	//toString
 	public String toString() {
